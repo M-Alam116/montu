@@ -24,7 +24,9 @@ export default function Header() {
                 </Link>
                 <div className={`navigation ${menuVisible ? "showMenu" : ""}`}>
                     <div className="flex items-center gap-[2rem] menu">
-                        <ImCross className="w-[20px] h-[20px] sm:hidden text-black absolute top-[2rem] left-[2rem]" />
+                        <span onClick={() => setMenuVisible(!menuVisible)}>
+                            <ImCross className="w-[20px] h-[20px] sm:hidden text-black absolute top-[2rem] left-[2rem]" />
+                        </span>
                         <Link href="/">
                             <li className="text-[16px] font-[600] leading-[20px] list-none text-[--primaryColor]">Home</li>
                         </Link>
