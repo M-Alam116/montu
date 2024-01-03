@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="flex flex-wrap gap-[3rem] items-start">
                     <div className="flex flex-col gap-[10px]">
                         <Link href="/">
-                            <Image src="/images/logo1.png" width={250} height={65} alt="logo" />
+                            <Image src="/images/logo1.png" width={200} height={50} alt="logo" />
                         </Link>
                         <p className="text-[16px] font-[600] leading-[20px] text-white">hola@montu.io</p>
                     </div>
