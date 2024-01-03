@@ -5,10 +5,11 @@ import Link from "next/link";
 import { BiMenu } from "react-icons/bi";
 import { useState } from "react";
 import { ImCross } from "react-icons/im";
+import { usePathname } from 'next/navigation'
 
 export default function Header() {
     const [menuVisible, setMenuVisible] = useState(false);
-
+    const pathname = usePathname()
     const toggleMenu = () => {
         setMenuVisible(!menuVisible);
     };
@@ -27,10 +28,12 @@ export default function Header() {
                             <ImCross className="w-[20px] h-[20px] sm:hidden text-black absolute top-[2rem] left-[2rem]" />
                         </span>
                         <Link href="/">
-                            <li className="text-[16px] font-[600] leading-[20px] list-none text-[--primaryColor]">Home</li>
+                            <li className={`text-[16px] font-[600] leading-[20px] list-none ${pathname === "/" ? "text-[--selectedColor]" : "text-[--primaryColor]"
+                                }`}>Home</li>
                         </Link>
                         <Link href="influencers">
-                            <li className="text-[16px] font-[600] leading-[20px] list-none text-[--primaryColor]">Influencers</li>
+                            <li className={`text-[16px] font-[600] leading-[20px] list-none ${pathname === "/influencers" ? "text-[--selectedColor]" : "text-[--primaryColor]"
+                                }`}>Influencers</li>
                         </Link>
                         <button className="text-[16px] font-[600] leading-[20px] text-white list-none bg-[--primaryColor] outline-none rounded-[6px] py-[12px] px-[20px]">¡Empecemos! 🚀</button>
                     </div>
