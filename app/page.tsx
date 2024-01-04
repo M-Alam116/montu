@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div className="">
       {/* =================== Hero Section start ================= */}
-      <div className="py-[5rem]">
+      <div className="py-[3rem]">
         <div className="grid lg:grid-cols-5 gap-[2rem] items-center max-w-[1300px] px-[10px] mx-auto">
           <div className="flex lg:col-span-2 flex-col gap-[1rem]">
             <h1 className="text-[40px] font-[600] leading-[50px] text-[--blackColor]">Vender con <span className="text-[--primaryColor]">influencers</span> nunca fue más simple</h1>
@@ -18,7 +18,7 @@ export default function Home() {
       {/* =================== Hero Section End ================= */}
 
       {/* =========== Companies list section start ============= */}
-      <div className="bg-[#f7f7f7] py-[3rem]">
+      <div className="bg-[#f7f7f7] py-[3rem] md:py-[5rem]">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-[2rem] max-w-[1300px] px-[10px] mx-auto">
           <Image src="/images/company1.png" width={278} height={53} alt="" />
           <Image src="/images/company2.png" width={278} height={53} alt="" />
@@ -30,22 +30,22 @@ export default function Home() {
       {/* =========== Companies list section end ============= */}
 
       {/* ======================= start ================  */}
-      <div className="py-[5rem]">
+      <div className="py-[3rem] md:py-[5rem]">
         <div className="container flex-col gap-[4rem]">
           <div className="flex flex-col gap-[10px] mx-auto md:w-[57%]">
             <h1 className="text-[32px] font-[600] leading-[35px]">Empieza a colaborar hoy mismo a través de campañas con impacto real</h1>
             <p className="text-[16px] font-[500] leading-[22px] text-[#717D96]">Desarrolla colaboraciones con impacto en las ventas de tu negocio o las de tus clientes.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1.5rem] place-items-center">
-            <div className="bg-[#DED2FF] max-w-[420px] w-full px-[24px] py-[100px] flex flex-col gap-[1.5rem] rounded-[8px]">
+            <div className="bg-[#DED2FF] max-w-[420px] w-full px-[15px] md:px-[24px] py-[50px] md:py-[100px] flex flex-col gap-[1.5rem] rounded-[8px]">
               <h1 className="text-[32px] font-[600] leading-[35px]">🚀 Crea tu campaña</h1>
               <p className="text-[16px] font-[400] leading-[22px]">Completa el brief de la campaña y lanza tu campaña en nuestra app, libre de cobros y comisiones.</p>
             </div>
-            <div className="bg-[#FFEEF7] max-w-[420px] w-full px-[24px] py-[100px] flex flex-col gap-[1.5rem] rounded-[8px]">
+            <div className="bg-[#FFEEF7] max-w-[420px] w-full px-[15px] md:px-[24px] py-[50px] md:py-[100px] flex flex-col gap-[1.5rem] rounded-[8px]">
               <h1 className="text-[32px] font-[600] leading-[35px]">📱 Elige y colabora</h1>
               <p className="text-[16px] font-[400] leading-[22px]">¿No sabes cómo elegir? Utiliza nuestras recomendaciones basadas en datos de audiencia y engagement.</p>
             </div>
-            <div className="bg-[#FFEFD4] max-w-[420px] w-full px-[24px] py-[100px] flex flex-col gap-[1.5rem] rounded-[8px]">
+            <div className="bg-[#FFEFD4] max-w-[420px] w-full px-[15px] md:px-[24px] py-[50px] md:py-[100px] flex flex-col gap-[1.5rem] rounded-[8px]">
               <h1 className="text-[32px] font-[600] leading-[35px]">⭐ Califica y repite</h1>
               <p className="text-[16px] font-[400] leading-[22px]">Cuéntanos sobre tu experiencia y vuelve a colaborar. Contrata nuestros planes mensuales para colaboraciones ilimitadas.</p>
             </div>
@@ -55,7 +55,7 @@ export default function Home() {
       {/* ======================= end ================  */}
 
       {/* ================== start ================== */}
-      <div className="bg-[#F7F7F7] py-[5rem]">
+      <div className="bg-[#F7F7F7] py-[3rem] md:py-[5rem]">
         <div className="container">
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-[2rem]">
             <div className="flex flex-col gap-[2rem]">
@@ -83,7 +83,7 @@ export default function Home() {
       {/* ================== end ================== */}
 
       {/* =============== start =================== */}
-      <div className="py-[5rem]">
+      <div className="py-[3rem] md:py-[5rem]">
         <div className="container flex-col gap-[1rem]">
           <h1 className="text-[32px] font-[600] leading-[35px]">Nuestros clientes no lo pueden creer.</h1>
           <p className="text-[16px] font-[500] leading-[22px] text-[#717D96] mb-[1rem]">Mira lo que nuestros usuarios dicen sobre Montu.</p>
@@ -121,7 +121,7 @@ export default function Home() {
       {/* ============== end ===================== */}
 
       {/* ==================== start =================== */}
-      <div className="py-[5rem] bg-[#F7F7F7]">
+      <div className="py-[3rem] md:py-[5rem] bg-[#F7F7F7]">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[4rem] place-items-center">
             <div className="flex gap-[1rem]">
@@ -150,7 +150,7 @@ export default function Home() {
       {/* ==================== end =================== */}
 
       {/* ==================== start =================== */}
-      <div className="py-[5rem]">
+      <div className="py-[3rem] md:py-[5rem]">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[4rem] place-items-center">
             <div className="flex flex-col gap-[2rem]">
@@ -179,7 +179,7 @@ export default function Home() {
       {/* ==================== end =================== */}
 
       {/* =============== start =============== */}
-      <div className="py-[5rem] bg-[#F7F7F7]">
+      <div className="py-[3rem] md:py-[5rem] bg-[#F7F7F7]">
         <div className="container flex-col gap-[1rem]">
           <h1 className="text-[32px] font-[600] leading-[35px]">¡Empieza a colaborar hoy!</h1>
           <p className="text-[16px] font-[500] leading-[22px] text-[#717D96]">Agendemos una reunión y comienza a colaborar a través de Montu.</p>
