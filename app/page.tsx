@@ -5,9 +5,9 @@ export default function Home() {
       {/* =================== Hero Section start ================= */}
       <div className="py-[3rem]">
         <div className="grid lg:grid-cols-5 gap-[2rem] items-center max-w-[1300px] px-[10px] mx-auto">
-          <div className="flex lg:col-span-2 flex-col gap-[1rem]">
-            <h1 className="text-[40px] font-[600] leading-[50px] text-[--blackColor]">Vender con <span className="text-[--primaryColor]">influencers</span> nunca fue más simple</h1>
-            <p className="text-[16px] font-[500] leading-[24px] text-[#2D3648]">Conoce la primera solución global de marketing con influencers. Diseñada para empresas, agencias y creadores de contenido.</p>
+          <div className="flex lg:col-span-2 flex-col gap-[1rem] items-center md:items-start">
+            <h1 className="text-[40px] font-[600] leading-[50px] text-[--blackColor] text-center md:text-left">Vender con <span className="text-[--primaryColor]">influencers</span> nunca fue más simple</h1>
+            <p className="text-[16px] font-[500] leading-[24px] text-[#2D3648] text-center md:text-left">Conoce la primera solución global de marketing con influencers. Diseñada para empresas, agencias y creadores de contenido.</p>
             <button className="text-[16px] font-[600] leading-[20px] w-fit text-white list-none bg-[--primaryColor] outline-none rounded-[6px] py-[16px] px-[24px]">¡Empecemos! 🚀</button>
           </div>
           <div className="flex lg:col-span-3 gap-[1rem]">
@@ -38,16 +38,16 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1.5rem] place-items-center">
             <div className="bg-[#DED2FF] max-w-[420px] w-full px-[15px] md:px-[24px] py-[50px] md:py-[100px] flex flex-col gap-[1.5rem] rounded-[8px]">
-              <h1 className="text-[32px] font-[600] leading-[35px]">🚀 Crea tu campaña</h1>
-              <p className="text-[16px] font-[400] leading-[22px]">Completa el brief de la campaña y lanza tu campaña en nuestra app, libre de cobros y comisiones.</p>
+              <h1 className="text-[28px] md:text-[32px] font-[600] leading-[35px] text-center md:text-left">🚀 Crea tu campaña</h1>
+              <p className="text-[16px] font-[400] leading-[22px] text-center md:text-left">Completa el brief de la campaña y lanza tu campaña en nuestra app, libre de cobros y comisiones.</p>
             </div>
             <div className="bg-[#FFEEF7] max-w-[420px] w-full px-[15px] md:px-[24px] py-[50px] md:py-[100px] flex flex-col gap-[1.5rem] rounded-[8px]">
-              <h1 className="text-[32px] font-[600] leading-[35px]">📱 Elige y colabora</h1>
-              <p className="text-[16px] font-[400] leading-[22px]">¿No sabes cómo elegir? Utiliza nuestras recomendaciones basadas en datos de audiencia y engagement.</p>
+              <h1 className="text-[28px] md:text-[32px] font-[600] leading-[35px] text-center md:text-left">📱 Elige y colabora</h1>
+              <p className="text-[16px] font-[400] leading-[22px] text-center md:text-left">¿No sabes cómo elegir? Utiliza nuestras recomendaciones basadas en datos de audiencia y engagement.</p>
             </div>
             <div className="bg-[#FFEFD4] max-w-[420px] w-full px-[15px] md:px-[24px] py-[50px] md:py-[100px] flex flex-col gap-[1.5rem] rounded-[8px]">
-              <h1 className="text-[32px] font-[600] leading-[35px]">⭐ Califica y repite</h1>
-              <p className="text-[16px] font-[400] leading-[22px]">Cuéntanos sobre tu experiencia y vuelve a colaborar. Contrata nuestros planes mensuales para colaboraciones ilimitadas.</p>
+              <h1 className="text-[28px] md:text-[32px] font-[600] leading-[35px] text-center md:text-left">⭐ Califica y repite</h1>
+              <p className="text-[16px] font-[400] leading-[22px] text-center md:text-left">Cuéntanos sobre tu experiencia y vuelve a colaborar. Contrata nuestros planes mensuales para colaboraciones ilimitadas.</p>
             </div>
           </div>
         </div>
@@ -63,15 +63,15 @@ export default function Home() {
               <p className="text-[16px] font-[500] leading-[22px] text-[#717D96]">Nuestra plataforma integrada te ahorra horas de trabajo, con creadores verificados y resultados garantizados.</p>
               <div className="flex items-center gap-[1rem]">
                 <span className="text-[30px]">🤖</span>
-                <h2 className="text-[24px] font-[600] leading-[24px]">Automatizaciones que te ahorrarán horas de trabajo.</h2>
+                <h2 className="text-[20px] md:text-[24px] font-[600] leading-[24px]">Automatizaciones que te ahorrarán horas de trabajo.</h2>
               </div>
               <div className="flex items-center gap-[1rem]">
                 <span className="text-[30px]">✅</span>
-                <h2 className="text-[24px] font-[600] leading-[24px]">Creadores verificados y calificados.</h2>
+                <h2 className="text-[20px] md:text-[24px] font-[600] leading-[24px]">Creadores verificados y calificados.</h2>
               </div>
               <div className="flex items-center gap-[1rem]">
                 <span className="text-[30px]">📈</span>
-                <h2 className="text-[24px] font-[600] leading-[24px]">Recomendaciones a medida y resultados garantizados.</h2>
+                <h2 className="text-[20px] md:text-[24px] font-[600] leading-[24px]">Recomendaciones a medida y resultados garantizados.</h2>
               </div>
             </div>
             <div className="flex justify-center items-center w-full">
