@@ -4,7 +4,7 @@ export default function Home() {
     <div className="">
       {/* =================== Hero Section start ================= */}
       <div className="py-[5rem]">
-        <div className="grid lg:grid-cols-5 gap-[2rem] items-center max-w-[1440px] px-[10px] mx-auto">
+        <div className="grid lg:grid-cols-5 gap-[2rem] items-center max-w-[1300px] px-[10px] mx-auto">
           <div className="flex lg:col-span-2 flex-col gap-[1rem]">
             <h1 className="text-[40px] font-[600] leading-[50px] text-[--blackColor]">Vender con <span className="text-[--primaryColor]">influencers</span> nunca fue más simple</h1>
             <p className="text-[16px] font-[500] leading-[24px] text-[#2D3648]">Conoce la primera solución global de marketing con influencers. Diseñada para empresas, agencias y creadores de contenido.</p>
@@ -19,7 +19,7 @@ export default function Home() {
 
       {/* =========== Companies list section start ============= */}
       <div className="bg-[#f7f7f7] py-[3rem]">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-[2rem] max-w-[1440px] px-[10px] mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-[2rem] max-w-[1300px] px-[10px] mx-auto">
           <Image src="/images/company1.png" width={278} height={53} alt="" />
           <Image src="/images/company2.png" width={278} height={53} alt="" />
           <Image src="/images/company3.png" width={278} height={53} alt="" />
@@ -89,7 +89,7 @@ export default function Home() {
           <p className="text-[16px] font-[500] leading-[22px] text-[#717D96] mb-[1rem]">Mira lo que nuestros usuarios dicen sobre Montu.</p>
           <div className="flex flex-col md:flex-row items-center gap-[1rem] bg-[#DED2FF] p-[1.5rem] rounded-[8px]">
             <div className="w-[150px] md:w-[100px] h-[150px] md:h-[100px] flex items-center justify-center">
-              <Image src="/images/person1.png" width={150} height={150} alt="" className="w-full" />
+              <Image src="/images/person1.svg" width={150} height={150} alt="" className="w-full" />
             </div>
             <div className="flex flex-col gap-[10px]">
               <h2 className="text-[24px] font-[600] leading-[26px]">“Montu me ahorra horas de trabajo y nos permite conectar con nuestro público objetivo”.</h2>
@@ -99,7 +99,7 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row items-center gap-[1rem] bg-[#FFEEF7] p-[1.5rem] rounded-[8px] my-[1rem]">
             <div className="w-[150px] h-[150px] flex items-center justify-center">
-              <Image src="/images/person2.png" width={150} height={150} alt="" className="w-full" />
+              <Image src="/images/person2.svg" width={150} height={150} alt="" className="w-full" />
             </div>
             <div className="flex flex-col gap-[10px]">
               <h2 className="text-[24px] font-[600] leading-[26px]">“Montu fue el empujón que necesitábamos para atrevernos a hacer campañas con influencers. Los resultados nos han sorprendido”.</h2>
@@ -109,7 +109,7 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-[1rem] bg-[#FFEFD4] p-[1.5rem] rounded-[8px]">
             <div className="w-[150px] h-[150px] flex items-center justify-center">
-              <Image src="/images/person3.png" width={150} height={150} alt="" className="w-full" />
+              <Image src="/images/person3.svg" width={150} height={150} alt="" className="w-full" />
             </div>
             <div className="flex flex-col gap-[10px]">
               <h2 className="text-[24px] font-[600] leading-[26px]">“Montu nos permite ordenar el trabajo con grandes volúmenes de creadores de contenido a través de un canal directo”.</h2>

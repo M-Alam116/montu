@@ -7,8 +7,8 @@ export default function Influencers() {
                     <h1 className="text-[40px] font-[600] leading-[50px] text-[--blackColor]">Create your Freedom.</h1>
                     <p className="text-[16px] font-[500] leading-[24px] text-[#2D3648] w-[60%]">La primera aplicación con la cual podrás colaborar con marcas, agencias y otros creadores.</p>
                     <div className="flex items-center gap-[1rem]">
-                        <Image src="/images/apple.png" width={180} height={52} alt="apple"></Image>
-                        <Image src="/images/playstore.png" width={180} height={52} alt="playstore"></Image>
+                        <Image src="/images/apple.svg" width={180} height={52} alt="apple"></Image>
+                        <Image src="/images/playstore.svg" width={180} height={52} alt="playstore"></Image>
                     </div>
                 </div>
                 <div className="flex gap-[1rem]">
